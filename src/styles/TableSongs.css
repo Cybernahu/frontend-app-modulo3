@@ -1,26 +1,26 @@
-.list_title{
+.listTitle{
     margin-top: 0px;
     height: 50px;
     text-align: center;
     background-color: rgb(230, 159, 159);
 }
-.table_box{
+.tableBox{
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.button_div{
+.buttonDiv{
     display: flex;
     justify-content: space-around;
     margin: 30px;
 
 }
-.table_header{
+.tableHeader{
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.box_table{
+.boxTable{
     margin: 40px, 60px, 0px, 60px;
     border: 1px solid rgba(212, 0, 255, 0.973);
 }

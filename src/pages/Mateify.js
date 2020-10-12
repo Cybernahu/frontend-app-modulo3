@@ -1,14 +1,7 @@
 import React from 'react';
-import {
-    Grid,
-    Box
-} from '@material-ui/core';
-
-// Components
+import Box from '@material-ui/core';
 import TableUsers from '../components/TableUsers';
 import TableSongs from '../components/TabeleSongs';
-
-//CSS
 import './Mateify.css';
 
 export const Mateify = () => {

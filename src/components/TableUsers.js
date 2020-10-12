@@ -14,8 +14,6 @@ import './../styles/TableUsers.css';
 
 
 export const TableUsers = () => {
-
-    // Estados
     const [user, setUser] = useState([]);
     const [songs, setSongs] = useState([]);
 
@@ -24,7 +22,6 @@ export const TableUsers = () => {
         const data = await response.json();
         setUser(data);
     }
-    
     useEffect(() => {
         getUsers();
     })
@@ -41,13 +38,13 @@ export const TableUsers = () => {
     return (
         <div>
             <Grid container>
-                <Paper className="box_table">
-                    <TableContainer className="table_box">
-                        <div className="list_title">
+                <Paper className="box_table" elevation="3">
+                    <TableContainer className="tableContainer">
+                        <div className="tableList">
                             <h2>Lista de Usuarios</h2>
                         </div>
                         <Grid item xs={12}>
-                            <TableHead className="table_header">
+                            <TableHead className="headerTable">
                                 <TableRow>
                                     <TableCell>Nombre</TableCell>
                                     <TableCell>Apellido</TableCell>

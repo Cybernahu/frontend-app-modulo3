@@ -1,7 +1,7 @@
-.list_title{
+.tableList{
     text-align: center;
 }
-.table_box{
+.tableContainer{
     position: relative;
     display: flex;
     justify-content: center;
@@ -10,9 +10,8 @@
 .button_div{
     display: flex;
     justify-content: space-around;
-
 }
-.table_header{
+.headerTable{
     display: flex;
     justify-content: center;
     flex-direction: column;

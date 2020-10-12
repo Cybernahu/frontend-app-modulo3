@@ -14,16 +14,16 @@ export const TableSongs = () => {
     return (
         <div>
             <Grid container>
-                <Paper className="box_table">
-                    <TableContainer className="table_box">
+                <Paper className="boxTable">
+                    <TableContainer className="tableBox">
                         <Grid item xs={12}>
-                            <div className="list_title">
+                            <div className="listTitle">
                                 <h2>Lista de canciones favoritas</h2>
                             </div>
                         </Grid>
                         <Grid item xs={12}>
                             <TableHead>
-                                <TableRow className="table_header">
+                                <TableRow className="tableHeader">
                                     <TableCell>Nombre</TableCell>
                                     <TableCell>Artista</TableCell>
                                     <TableCell>Album</TableCell>
@@ -43,9 +43,9 @@ export const TableSongs = () => {
                         </Grid>
                     </TableContainer>
                     <Grid item xs={12}>
-                        <div className="button_div">
-                            <Boton className="button_functions" onClick="" button_variant="contained" button_color="primary" button_name="Agregar" />
-                            <Boton className="button_functions" onClick="" button_variant="contained" button_color="secondary" button_name="Eliminar" />
+                        <div className="buttonDiv">
+                            <Boton button_variant="contained" button_color="secondary" button_name="Agregar" />
+                            <Boton button_variant="contained" button_color="primary" button_name="Eliminar" />
                         </div>
                     </Grid>
                 </Paper>
