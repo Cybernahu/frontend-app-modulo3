@@ -1,0 +1,9 @@
+.divContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userTable{
+    margin-bottom: 40px;
+}
