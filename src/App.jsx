@@ -1,5 +1,4 @@
 import React from 'react';
-import './app.css';
 import Mateify from './pages/Mateify';
 
 
