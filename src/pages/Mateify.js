@@ -1,5 +1,5 @@
 import React from 'react';
-import Box from '@material-ui/core';
+import Box from '@material-ui/core/Box';
 import TableUsers from '../components/TableUsers';
 import TableSongs from '../components/TabeleSongs';
 import './Mateify.css';
